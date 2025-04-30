@@ -67,12 +67,13 @@ body {
     }
 }
 .perfil {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 .foto-perfil {
@@ -97,7 +98,7 @@ body {
     font-style: italic; 
 }
 .redes-sociais {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -106,7 +107,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 30px;
-    height: 50px; 
+    height: 60px; 
 }
 
 .redes-sociais a {
@@ -125,6 +126,7 @@ body, html {
     padding: 0;
     height: 100%;
     overflow: hidden;
+    overflow-y: auto;
 }
 .bio {
     background-color: white;
@@ -132,11 +134,7 @@ body, html {
     padding: 50px 20px 50px 20px; 
     box-sizing: border-box;
     position: relative;
-}
-
-.bio-conteudo {
-    max-width: none;
-    margin: 0;
+    margin-top: 200px;
 }
 
 .bio h1 {
@@ -147,10 +145,11 @@ body, html {
 }
 
 .descricao {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.6;
     color: #333;
     text-align: left;
+    font-style: inherit;
 }
 
 
