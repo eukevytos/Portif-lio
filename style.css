@@ -73,7 +73,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin-top: 200px;
+    margin-top: 400px;
 }
 
 .foto-perfil {
@@ -151,5 +151,49 @@ body, html {
     text-align: left;
     font-style: inherit;
 }
+.projetos {
+    display: flex;
+    flex-wrap:nowrap; 
+    justify-content:space-between; 
+    gap: 20px;
+    padding: 60px 40px;
+    background-color: #000; 
+  }
+  
+  .card {
+    background-color: white;
+    flex: 1 1 calc(33.33% - 20px);
+    min-width: 250px;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    font-size: 18px;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  .card:empty {
+    display: none;
+  }
+  .projetos a:nth-child(1) {
+    background-color: #6b3f42;
+  }
+  
+  .projetos a:nth-child(2) {
+    background-color: #355e65;
+  }
+  
+  .projetos a:nth-child(3) {
+    background-color: #2f5638;
+  }  
+  
+  
+  
 
 
