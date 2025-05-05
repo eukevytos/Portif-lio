@@ -17,12 +17,16 @@
     gap: 20px;
     color: white; 
 }
-
-.links h2 {
-    margin: 0; 
-}
-
-
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #63a4ff;
+  }
+  
 .corpo{
     background-color: black;
 }
@@ -44,7 +48,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin-top: 1300px;
+    margin-top: 1400px;
 
 }
 
@@ -99,6 +103,7 @@ body, html {
     height: 100%;
     overflow: hidden;
     overflow-y: auto;
+    scroll-behavior: smooth;
 }
 .bio {
     background-color: white;
@@ -253,6 +258,43 @@ body, html {
       border-left-color: transparent !important;
     }
   }
+  #contato {
+    background-color: #1c1c1c;
+    color: #f0f0f0;
+    padding: 40px 20px;
+    font-family: sans-serif;
+    width: 100%;
+  }
+  
+  #contato h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+   margin-left: 20px;
+  }
+  
+  #contato ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 20px;
+  }
+  
+  #contato li {
+    margin-bottom: 10px;
+  }
+  
+  #contato a {
+    color: #1e90ff;
+    text-decoration: none;
+  }
+  
+  #contato a:hover {
+    text-decoration: underline;
+  }
+  
+  .key {
+    color: #1e90ff;
+  }
+  
   
   
   
